@@ -1,0 +1,140 @@
+.container{
+    display: block;
+}
+
+.segundo{
+    float: left;
+    display:flex;
+    flex-wrap:nowrap;
+    margin-top: 3px;
+    margin-bottom: -11px;
+    
+}
+.celda{
+    display: block;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 52px;
+    height: 60px;
+    margin: 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.celda1{
+    display: block;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 52px;
+    height: 60px;
+    margin: 5px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.celda2{
+    display: block;
+    border-radius: 10px;
+    width: 52px;
+    height: 60px;
+    margin: 5px;
+    background-color: yellow;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.vacio{
+    float: left;
+    -webkit-flex: auto;
+    flex: auto;
+    background-color: blue;
+    border-radius: 15px;
+    height: 60px;
+    margin: 5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+/* Para nombre simbolo*/
+.simbolo{
+    margin: -10px 35px;
+    color: rgb(255, 0, 0);
+}  
+.dos{
+    margin: 0px 29px;
+    color: rgb(0, 0, 0);
+}
+.negro{
+    margin: -10px 35px;
+    color: rgb(0, 0, 0);
+}
+.azul{
+    margin: 0px 29px;
+    color: blue;
+}
+.rojo{
+    margin: 0px 29px;
+    color: red;
+} 
+.rojo1{
+    margin: 0px 25px;
+    color: #000000;
+}
+
+.blanco{
+    margin: 0px 29px;
+    -webkit-text-stroke: 1px black;
+  color: transparent;
+}
+.blanco1{
+    margin: 0px 20px;
+    -webkit-text-stroke: 1px black;
+  color: transparent;
+  
+}
+
+/* Para numero atomico*/
+
+.numero{
+    margin: -41px 40px;
+    font-size: 15px;
+    color: blue;
+    
+}  
+
+.dosl{
+    margin: -41px 34px;
+    font-size: 15px;
+    color: blue;
+}
+.cuatro{
+    margin: -41px 30px;
+    font-size: 12px;
+    color: blue;
+}
+
+
+.letra{
+    margin: 67px 1px ;
+    font-size: 10px;
+    color: red;
+}   
+  
+.letras{
+    margin-left: 20px;
+    margin-top: 38px;
+}
+.clase{
+    margin-left: 2px;
+    font-size: 8px;
+    color: red;
+}
+
+
+
+
+
